@@ -7,6 +7,8 @@ module Arithmetic where
   _+_ : ℕ → ℕ → ℕ
   zero     + b = b
   (succ a) + b = succ (a + b)
+  
+  -- ℕ + ℕ =  succ (succ ℕ))
 
   _*_ : ℕ → ℕ → ℕ
   zero     * b = zero
